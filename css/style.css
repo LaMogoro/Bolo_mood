@@ -49,6 +49,8 @@ main {
        padding-top: 0%;
        background-color: #bf8040;}
 
+.row {padding-top: 10%;}
+
 img {max-width: 7vh;
     vertical-align: middle;
     border-style: none;
