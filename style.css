@@ -1,1 +1,106 @@
+body  { font-family: 'Lato', sans-serif !important;}
 
+header {background-color: #ff944d;
+    color: white; 
+  text-align: center; 
+  padding: 0% 0% 0px 0%; 
+  height: auto;
+    margin: 0%;
+    background: url(../img/1background.jpeg) no-repeat center;}
+
+nav ul li {height: 11vh;
+     background-color: white;
+     display: inline-block;  
+     padding: 18px; 
+  border-top-left-radius: 0%; 
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%; 
+  text-transform: uppercase;
+     }
+
+h1 { color: white; text-align: center !important;
+     margin: 0px auto;
+     height: 50vh;
+     padding: 10% 10% 0px 10%; 
+    line-height: 0.5em;}
+
+
+header p {color: white; 
+     text-align: center !important; margin: 0px auto;
+     height: 30vh;
+     padding: 5% 5% 0px 5%;}
+
+ p {font-family: 'Lato', sans-serif; color: white;}
+ .paragrafo {font-size: 1.5em;}     
+ 
+ .playlist {text-align: center !important; 
+                   margin: 0px; 
+                   padding: 5% 5% 10px 5%; 
+                   background-color: #bf8040;} 
+ .row.morepadding {text-align: center !important; 
+                   margin: 0px; 
+                   padding: 5% 5% 10px 5%; 
+                   background-color: #bf8040;}
+
+
+
+main {
+       padding-top: 0%;
+       background-color: #bf8040;}
+
+img {max-width: 7vh;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.insta {height: 500px; min-width: 800px; padding: 2% 2% 5px 2%; border-bottom: 90px; border-top: 0px; }
+
+h2 {background-color:  white;
+            color: #bf8040;
+            margin-left: 50%;
+            text-align: center;}
+h3 {color: #bf8040;
+    text-decoration: none !important; 
+    text-align: center;
+    height: 30px;
+    font-weight: bold;
+    background-color: none; }
+
+
+h4 {color: white;}
+h5 {color: #bf8040;}
+
+
+
+.col-lg-12 {color: white; text-align: center; margin-bottom: 3%; font-size: 1.5em;}
+
+ .h1 {height: 13.5%;}
+ .mappa {height: 300px; min-width: 500px; padding: 5% 5% 0px 5%;
+         margin-bottom: 140px;}
+ .map {padding: 5% 5% 10px 5%;}
+ .box { background: url(#header); /*background-color: #ffaa80 */; width: 2000px; height:400px; 
+       text-align: center !important; 
+        margin-left: 0%; margin-top: 0%; margin-right: 0%; margin-bottom: 0%;}
+
+.doc-link {text-align: center;}
+
+.cards1 {margin-left: 10%; margin-bottom: 5%; margin-right: 10%; }
+.cards2 {margin-left: 10%; margin-bottom: 5%; margin-right: 10%; }
+
+.top {margin-left: 105%;}
+
+footer {height: 100px; color: black; text-align: center !important;}
+.form {padding: 2% 5% 20px 27%; }
+.social {position: center; margin-right: 30%;}
+.copyright {color: #d9b38c; font-weight: 10;
+            text-align: center;
+            margin-right: 300px;}
+
+//Small devices
+@media (min-width: 576px)
+//Medium devices
+ (min-width: 768px)
+//Large devices
+ (min-width: 992px)
