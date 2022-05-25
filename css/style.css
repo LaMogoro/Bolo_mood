@@ -1,6 +1,6 @@
 body  { font-family: 'Lato', sans-serif !important;}
 
-header {background-color: #ff944d;
+header {background-color: none;
     color: white; 
   text-align: center; 
   padding: 0% 0% 0px 0%; 
@@ -26,12 +26,14 @@ h1 { color: white; text-align: center !important;
     line-height: 0.5em;}
 
 
+
 header p {color: white; 
      text-align: center !important; margin: 0px auto;
      height: 30vh;
      padding: 5% 5% 0px 5%;}
 
  p {font-family: 'Lato', sans-serif; color: white;}
+ .home {font-size: 1em; padding-top: 2%; margin-bottom: 100px;}
  .paragrafo {font-size: 1.5em;}     
  
  .playlist {text-align: center !important; 
@@ -51,6 +53,7 @@ main {
 
 .row {padding-top: 10%;}
 
+
 img {max-width: 7vh;
     vertical-align: middle;
     border-style: none;
@@ -58,7 +61,7 @@ img {max-width: 7vh;
 
 
 .insta {height: 500px; min-width: 800px; padding: 2% 2% 5px 2%; border-bottom: 90px; border-top: 0px; }
-
+.insight {height: 500px; min-width: 600px; padding: 2% 2% 5px 2%; border-bottom: 90px; border-top: 0px;}
 h2 {background-color:  white;
             color: #bf8040;
             margin-left: 50%;
@@ -76,13 +79,15 @@ h5 {color: #bf8040;}
 
 
 
-.col-lg-12 {color: white; text-align: center; margin-bottom: 3%; font-size: 1.5em;}
+
+.col-lg-12 {color: white; text-align: center; margin-bottom: 3%; margin-top: 7%; font-size: 1.5em;}
+
 
  .h1 {height: 13.5%;}
  .mappa {height: 300px; min-width: 500px; padding: 5% 5% 0px 5%;
-         margin-bottom: 140px;}
- .map {padding: 5% 5% 10px 5%;}
- .box { background: url(#header); /*background-color: #ffaa80 */; width: 2000px; height:400px; 
+         margin-bottom: 120px;}
+
+ .box { background: url(#header); width: 2000px; height:400px; 
        text-align: center !important; 
         margin-left: 0%; margin-top: 0%; margin-right: 0%; margin-bottom: 0%;}
 
@@ -96,7 +101,7 @@ h5 {color: #bf8040;}
 footer {height: 100px; color: black; text-align: center !important;}
 .form {padding: 2% 5% 20px 27%; }
 .social {position: center; margin-right: 30%;}
-.copyright {color: #d9b38c; font-weight: 10;
+.text {color: #d9b38c; font-weight: 10;
             text-align: center;
             margin-right: 300px;}
 
